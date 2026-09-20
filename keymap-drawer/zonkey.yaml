@@ -33,7 +33,7 @@ layers:
   - N
   - M
   - ','
-  - .
+  - {t: ., h: '2'}
   - {t: /, h: '5'}
   - LCTRL
   - LEFT WIN
@@ -121,13 +121,13 @@ layers:
   - HOME
   - PAGE DOWN
   - PAGE UP
-  - END
+  - {t: END, type: held}
   - RIGHT ARROW
   - LCTRL
   - LEFT WIN
   - LEFT ALT
   - {t: INT MUHENKAN, h: '3'}
-  - {t: SPACE, h: '2', type: held}
+  - {t: SPACE, h: '2'}
   - {t: INT HENKAN, h: '1'}
   - BACKSPACE
   - ENTER
