@@ -212,9 +212,7 @@ path.combo {
 <g transform="translate(742, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">L</text>
-<a href="#x_x">
-<text x="0" y="24" class="key hold layer-activator">5</text>
-</a></g>
+</g>
 <g transform="translate(798, 84)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&#x27;</text>
@@ -274,7 +272,9 @@ path.combo {
 <g transform="translate(812, 140)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">/</text>
-</g>
+<a href="#x_x">
+<text x="0" y="24" class="key hold layer-activator">5</text>
+</a></g>
 <g transform="translate(28, 196)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">LCTRL</text>
@@ -315,19 +315,19 @@ path.combo {
 </a></g>
 <g transform="translate(480, 233) rotate(-20.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+<text x="0" y="0" class="key tap">ENTER</text>
 </g>
 <g transform="translate(538, 219) rotate(-10.0)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">ENTER</text>
+<text x="0" y="0" class="key tap">BSPC</text>
 </g>
 <g transform="translate(812, 196)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">DEL</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="56" y="15" width="28" height="26" class="combo"/>
-<text x="70" y="28" class="combo tap">ESCAPE</text>
+<rect rx="6" ry="6" x="84" y="71" width="28" height="26" class="combo"/>
+<text x="98" y="84" class="combo tap">ESCAPE</text>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="644" y="71" width="28" height="26" class="combo"/>
@@ -358,6 +358,10 @@ path.combo {
 <text x="728" y="140" class="combo tap">
 <tspan x="728" dy="-0.6em">&amp;mkp</tspan><tspan x="728" dy="1.2em">MB5</tspan>
 </text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="56" y="15" width="28" height="26" class="combo"/>
+<text x="70" y="28" class="combo tap">TAB</text>
 </g>
 </g>
 </g>
@@ -566,8 +570,8 @@ path.combo {
 <text x="0" y="0" class="key tap">DEL</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="56" y="15" width="28" height="26" class="combo"/>
-<text x="70" y="28" class="combo tap">ESCAPE</text>
+<rect rx="6" ry="6" x="84" y="71" width="28" height="26" class="combo"/>
+<text x="98" y="84" class="combo tap">ESCAPE</text>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="644" y="71" width="28" height="26" class="combo"/>
@@ -598,6 +602,10 @@ path.combo {
 <text x="728" y="140" class="combo tap">
 <tspan x="728" dy="-0.6em">&amp;mkp</tspan><tspan x="728" dy="1.2em">MB5</tspan>
 </text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="56" y="15" width="28" height="26" class="combo"/>
+<text x="70" y="28" class="combo tap">TAB</text>
 </g>
 </g>
 </g>
@@ -819,8 +827,8 @@ path.combo {
 <text x="0" y="0" class="key tap">DEL</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="56" y="15" width="28" height="26" class="combo"/>
-<text x="70" y="28" class="combo tap">ESCAPE</text>
+<rect rx="6" ry="6" x="84" y="71" width="28" height="26" class="combo"/>
+<text x="98" y="84" class="combo tap">ESCAPE</text>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="644" y="71" width="28" height="26" class="combo"/>
@@ -851,6 +859,10 @@ path.combo {
 <text x="728" y="140" class="combo tap">
 <tspan x="728" dy="-0.6em">&amp;mkp</tspan><tspan x="728" dy="1.2em">MB5</tspan>
 </text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="56" y="15" width="28" height="26" class="combo"/>
+<text x="70" y="28" class="combo tap">TAB</text>
 </g>
 </g>
 </g>
@@ -1046,8 +1058,8 @@ path.combo {
 <text x="0" y="0" class="key tap">DEL</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="56" y="15" width="28" height="26" class="combo"/>
-<text x="70" y="28" class="combo tap">ESCAPE</text>
+<rect rx="6" ry="6" x="84" y="71" width="28" height="26" class="combo"/>
+<text x="98" y="84" class="combo tap">ESCAPE</text>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="644" y="71" width="28" height="26" class="combo"/>
@@ -1078,6 +1090,10 @@ path.combo {
 <text x="728" y="140" class="combo tap">
 <tspan x="728" dy="-0.6em">&amp;mkp</tspan><tspan x="728" dy="1.2em">MB5</tspan>
 </text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="56" y="15" width="28" height="26" class="combo"/>
+<text x="70" y="28" class="combo tap">TAB</text>
 </g>
 </g>
 </g>
@@ -1299,8 +1315,8 @@ path.combo {
 <text x="0" y="0" class="key tap">DEL</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="56" y="15" width="28" height="26" class="combo"/>
-<text x="70" y="28" class="combo tap">ESCAPE</text>
+<rect rx="6" ry="6" x="84" y="71" width="28" height="26" class="combo"/>
+<text x="98" y="84" class="combo tap">ESCAPE</text>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="644" y="71" width="28" height="26" class="combo"/>
@@ -1331,6 +1347,10 @@ path.combo {
 <text x="728" y="140" class="combo tap">
 <tspan x="728" dy="-0.6em">&amp;mkp</tspan><tspan x="728" dy="1.2em">MB5</tspan>
 </text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="56" y="15" width="28" height="26" class="combo"/>
+<text x="70" y="28" class="combo tap">TAB</text>
 </g>
 </g>
 </g>
@@ -1417,8 +1437,9 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(742, 84)" class="key held keypos-20">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<g transform="translate(742, 84)" class="key trans keypos-20">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(798, 84)" class="key trans keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1442,9 +1463,8 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(252, 140)" class="key trans keypos-26">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(252, 140)" class="key held keypos-26">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(308, 140)" class="key trans keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1519,8 +1539,8 @@ path.combo {
 <text x="0" y="0" class="key tap">DEL</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="56" y="15" width="28" height="26" class="combo"/>
-<text x="70" y="28" class="combo tap">ESCAPE</text>
+<rect rx="6" ry="6" x="84" y="71" width="28" height="26" class="combo"/>
+<text x="98" y="84" class="combo tap">ESCAPE</text>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="644" y="71" width="28" height="26" class="combo"/>
@@ -1551,6 +1571,10 @@ path.combo {
 <text x="728" y="140" class="combo tap">
 <tspan x="728" dy="-0.6em">&amp;mkp</tspan><tspan x="728" dy="1.2em">MB5</tspan>
 </text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="56" y="15" width="28" height="26" class="combo"/>
+<text x="70" y="28" class="combo tap">TAB</text>
 </g>
 </g>
 </g>
@@ -1739,8 +1763,8 @@ path.combo {
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="56" y="15" width="28" height="26" class="combo"/>
-<text x="70" y="28" class="combo tap">ESCAPE</text>
+<rect rx="6" ry="6" x="84" y="71" width="28" height="26" class="combo"/>
+<text x="98" y="84" class="combo tap">ESCAPE</text>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="644" y="71" width="28" height="26" class="combo"/>
@@ -1771,6 +1795,10 @@ path.combo {
 <text x="728" y="140" class="combo tap">
 <tspan x="728" dy="-0.6em">&amp;mkp</tspan><tspan x="728" dy="1.2em">MB5</tspan>
 </text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="56" y="15" width="28" height="26" class="combo"/>
+<text x="70" y="28" class="combo tap">TAB</text>
 </g>
 </g>
 </g>

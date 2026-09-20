@@ -21,7 +21,7 @@ layers:
   - H
   - J
   - K
-  - {t: L, h: '5'}
+  - L
   - ''''
   - LEFT SHIFT
   - Z
@@ -34,15 +34,15 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: '5'}
   - LCTRL
   - LEFT WIN
   - LEFT ALT
   - {t: INT MUHENKAN, h: '3'}
   - {t: SPACE, h: '2'}
   - {t: INTERNATIONAL 4, h: '1'}
-  - BACKSPACE
   - ENTER
+  - BSPC
   - DEL
   '1':
   - CAPSLOCK
@@ -241,13 +241,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -309,7 +309,7 @@ layers:
   - {t: default, h: toggle}
   - {t: ▽, type: trans}
 combos:
-- p: [0, 1]
+- p: [11, 10]
   k: ESCAPE
 - p: [18, 19]
   k: '&mkp MB1'
@@ -321,3 +321,5 @@ combos:
   k: '&mkp MB4'
 - p: [31, 32]
   k: '&mkp MB5'
+- p: [0, 1]
+  k: TAB
