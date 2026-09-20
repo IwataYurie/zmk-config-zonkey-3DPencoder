@@ -43,6 +43,31 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
+
+        left_mouse_click_combo {
+            bindings = <&mkp MB1>;
+            key-positions = <18 19>;
+        };
+
+        right_mouse_click_combo {
+            bindings = <&mkp MB2>;
+            key-positions = <19 20>;
+        };
+
+        middle_mouse_click_combo {
+            bindings = <&mkp MB3>;
+            key-positions = <30 19>;
+        };
+
+        prev_click_combo {
+            bindings = <&mkp MB4>;
+            key-positions = <30 31>;
+        };
+
+        next_click_combo {
+            bindings = <&mkp MB5>;
+            key-positions = <31 32>;
+        };
     };
 
     mo2: mo2 {
@@ -190,6 +215,13 @@
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
             tap-ms = <20>;
+        };
+
+        toggle_tabs: toggle_tabs {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "TOGGLE_TABS";
+            #sensor-binding-cells = <0>;
+            bindings = <&kp LC(TAB)>, <&kp LC(LS(TAB))>;
         };
     };
 
